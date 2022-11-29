@@ -15,6 +15,14 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "components/pages/Tabs.jsx",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/_app.js",
+    "pages/index.js",
+    "components/pages/home.jsx"
+  ],
   "exclude": ["node_modules"]
 }

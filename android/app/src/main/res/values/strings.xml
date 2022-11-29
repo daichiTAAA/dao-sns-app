@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">dao-sns-app</string>
+    <string name="title_activity_main">dao-sns-app</string>
+    <string name="package_name">com.daosnsapp.app</string>
+    <string name="custom_url_scheme">com.daosnsapp.app</string>
+</resources>
