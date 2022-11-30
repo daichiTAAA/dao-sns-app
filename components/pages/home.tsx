@@ -39,6 +39,10 @@ export default function Home() {
       setActingAccount: setActingAccount!,
       setIsSetup: setIsSetup,
     });
+    setInterval(() => {}, 10000);
+  }, []);
+
+  useEffect(() => {
     if (!isSetup) return;
     getProfileForHome({
       api: api!,
@@ -71,7 +75,7 @@ export default function Home() {
 
   return (
     <IonPage>
-      <IonContent >
+      <IonContent>
         <PostModal
           isOpen={showNewPostModal}
           afterOpenFn={setShowNewPostModal}

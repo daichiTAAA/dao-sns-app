@@ -7,7 +7,7 @@ import { flash, happy, home, medal } from 'ionicons/icons';
 import BottomLogo from '../atoms/bottomLogo';
 import Profile from './profile';
 import Home from './home';
-import MessageBox from './MessageBox';
+import MessageBox from './messageBox';
 
 const Tabs = () => {
   return (

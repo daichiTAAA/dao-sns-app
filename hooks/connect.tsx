@@ -37,4 +37,5 @@ export const connectToContract = async (props: Props) => {
   const connectedApi = await ApiPromise.create({ provider: wsProvider });
   props.setApi(connectedApi);
   await extensionSetup();
+  setInterval(() => {}, 5000);
 };
